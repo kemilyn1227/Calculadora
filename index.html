@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <p class="tela"></p>
+
+        <table>
+        
+            <tr>
+                <td onclick="limpar()">AC</td>
+                <td onclick="apagar()">DEL</td>
+                <td onclick="adicionar('%')">%</td>
+                <td onclick="adicionar('/')">/</td>
+            </tr>
+    
+            <tr>
+                <td onclick="adicionar(7)">7</td>
+                <td onclick="adicionar(8)">8</td>
+                <td onclick="adicionar(9)">9</td>
+                <td onclick="adicionar('*')">*</td>
+            </tr>
+    
+            <tr>
+                <td onclick="adicionar(4)">4</td>
+                <td onclick="adicionar(5)">5</td>
+                <td onclick="adicionar(6)">6</td>
+                <td onclick="adicionar('-')">-</td>
+            </tr>
+    
+            <tr>
+                <td onclick="adicionar(1)">1</td>
+                <td onclick="adicionar(2)">2</td>
+                <td onclick="adicionar(3)">3</td>
+                <td onclick="adicionar('+')">+</td>
+            </tr>
+    
+            <tr>
+                <td onclick="adicionar(0)">0</td>
+                <td onclick="adicionar('00')">00</td>
+                <td onclick="adicionar('.')">.</td>
+                <td onclick="resultado()">=</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
